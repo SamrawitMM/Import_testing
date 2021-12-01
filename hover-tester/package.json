@@ -1,0 +1,30 @@
+{
+  "name": "hover-tester",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "EventEmitter": "^1.0.0",
+    "axios": "^0.19.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.0",
+    "@babel/runtime": "7.4.0",
+    "babel-jest": "24.5.0",
+    "graceful-fs": "^4.2.8",
+    "jest": "24.5.0",
+    "metro": "^0.53.1",
+    "metro-core": "^0.53.1",
+    "metro-react-native-babel-preset": "0.53.1",
+    "react-test-renderer": "16.8.3",
+    "react-native-hover-react-sdk": "file:hover-react-sdk"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
